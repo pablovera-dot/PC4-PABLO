@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3ebb2a4464c6d93c02830114b18d1ea3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3ebb2a4464c6d93c02830114b18d1ea3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3ebb2a4464c6d93c02830114b18d1ea3 = L.map(
+                "map_3ebb2a4464c6d93c02830114b18d1ea3",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5125969532e96782c24a4243c7b1651b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5125969532e96782c24a4243c7b1651b.addTo(map_3ebb2a4464c6d93c02830114b18d1ea3);
+        
+    
+            var marker_95894821e05d9df3a94c7158af91441f = L.marker(
+                [48.89595322847236, 2.3397164779096644],
+                {
+}
+            ).addTo(map_3ebb2a4464c6d93c02830114b18d1ea3);
+        
+    
+            var icon_c5177cc9b170ec494b075f3a8ad3795b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f1cf82db2d2b0b22be3ecdd9ed074f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_500a6b4c78cd2a01380a953359291204 = $(`<div id="html_500a6b4c78cd2a01380a953359291204" style="width: 100.0%; height: 100.0%;">     <b>Bastardos sin gloria</b><br>     País: Estados Unidos<br>     Director: Tarantino<br>     Año: 2009     </div>`)[0];
+                popup_8f1cf82db2d2b0b22be3ecdd9ed074f1.setContent(html_500a6b4c78cd2a01380a953359291204);
+            
+        
+
+        marker_95894821e05d9df3a94c7158af91441f.bindPopup(popup_8f1cf82db2d2b0b22be3ecdd9ed074f1)
+        ;
+
+        
+    
+    
+                marker_95894821e05d9df3a94c7158af91441f.setIcon(icon_c5177cc9b170ec494b075f3a8ad3795b);
+            
+    
+            var marker_cc375863ed0710111f2a79c9b58fbaa8 = L.marker(
+                [-34.58936649276279, -58.3730643242514],
+                {
+}
+            ).addTo(map_3ebb2a4464c6d93c02830114b18d1ea3);
+        
+    
+            var icon_416dca78e8237c44c8feab60e6c2bc8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6ad3afd925f03459839c30931152b7d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f76c9b749e8920fad0f8a0f179ce9b4 = $(`<div id="html_3f76c9b749e8920fad0f8a0f179ce9b4" style="width: 100.0%; height: 100.0%;">     <b>El secreto de tus ojos</b><br>     País: Argentina<br>     Director: Campanella<br>     Año: 2010     </div>`)[0];
+                popup_e6ad3afd925f03459839c30931152b7d.setContent(html_3f76c9b749e8920fad0f8a0f179ce9b4);
+            
+        
+
+        marker_cc375863ed0710111f2a79c9b58fbaa8.bindPopup(popup_e6ad3afd925f03459839c30931152b7d)
+        ;
+
+        
+    
+    
+                marker_cc375863ed0710111f2a79c9b58fbaa8.setIcon(icon_416dca78e8237c44c8feab60e6c2bc8e);
+            
+    
+            var marker_eb2c7d1c1cf62231a5a3616a60711c66 = L.marker(
+                [33.997658144687115, -118.44372886256514],
+                {
+}
+            ).addTo(map_3ebb2a4464c6d93c02830114b18d1ea3);
+        
+    
+            var icon_0bda9d53dc7c985c06d421d0b4919389 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fc739c400f08c96ff5e60c6e247a684 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8859b294d8599e13c33e0838b13ac64c = $(`<div id="html_8859b294d8599e13c33e0838b13ac64c" style="width: 100.0%; height: 100.0%;">     <b>Historia americana X</b><br>     País: Estados Unidos<br>     Director: Kaye<br>     Año: 1998     </div>`)[0];
+                popup_6fc739c400f08c96ff5e60c6e247a684.setContent(html_8859b294d8599e13c33e0838b13ac64c);
+            
+        
+
+        marker_eb2c7d1c1cf62231a5a3616a60711c66.bindPopup(popup_6fc739c400f08c96ff5e60c6e247a684)
+        ;
+
+        
+    
+    
+                marker_eb2c7d1c1cf62231a5a3616a60711c66.setIcon(icon_0bda9d53dc7c985c06d421d0b4919389);
+            
+    
+            var marker_cbce7b07b39d82b935f198c0320cf19e = L.marker(
+                [34.08683899647738, -118.31605575277942],
+                {
+}
+            ).addTo(map_3ebb2a4464c6d93c02830114b18d1ea3);
+        
+    
+            var icon_58128108e1914155940bc92d217a0c0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23da5e543cf6e194f16a63c9d972ee50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8fca80d68fe15532fb6f3ed0762fd4b = $(`<div id="html_b8fca80d68fe15532fb6f3ed0762fd4b" style="width: 100.0%; height: 100.0%;">     <b>La ventana indiscreta</b><br>     País: Estados Unidos<br>     Director: Hitchcock<br>     Año: 1955     </div>`)[0];
+                popup_23da5e543cf6e194f16a63c9d972ee50.setContent(html_b8fca80d68fe15532fb6f3ed0762fd4b);
+            
+        
+
+        marker_cbce7b07b39d82b935f198c0320cf19e.bindPopup(popup_23da5e543cf6e194f16a63c9d972ee50)
+        ;
+
+        
+    
+    
+                marker_cbce7b07b39d82b935f198c0320cf19e.setIcon(icon_58128108e1914155940bc92d217a0c0c);
+            
+    
+            var marker_97a5476a51a601afb839dcf0d35ebd55 = L.marker(
+                [34.987292028647374, 136.18286946266278],
+                {
+}
+            ).addTo(map_3ebb2a4464c6d93c02830114b18d1ea3);
+        
+    
+            var icon_441eeadae69dc5bb24b1906ea1184dd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acfb0d8634f56b5b7c0f36cab4f3f209 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_67ed61540c0caecd88a83fca12d8eefc = $(`<div id="html_67ed61540c0caecd88a83fca12d8eefc" style="width: 100.0%; height: 100.0%;">     <b>La tumba de las luciérnagas</b><br>     País: Japón<br>     Director: Takahata<br>     Año: 2012     </div>`)[0];
+                popup_acfb0d8634f56b5b7c0f36cab4f3f209.setContent(html_67ed61540c0caecd88a83fca12d8eefc);
+            
+        
+
+        marker_97a5476a51a601afb839dcf0d35ebd55.bindPopup(popup_acfb0d8634f56b5b7c0f36cab4f3f209)
+        ;
+
+        
+    
+    
+                marker_97a5476a51a601afb839dcf0d35ebd55.setIcon(icon_441eeadae69dc5bb24b1906ea1184dd0);
+            
+    
+            tile_layer_5125969532e96782c24a4243c7b1651b.addTo(map_3ebb2a4464c6d93c02830114b18d1ea3);
+        
+    
+                marker_95894821e05d9df3a94c7158af91441f.setIcon(icon_c5177cc9b170ec494b075f3a8ad3795b);
+            
+    
+                marker_cc375863ed0710111f2a79c9b58fbaa8.setIcon(icon_416dca78e8237c44c8feab60e6c2bc8e);
+            
+    
+                marker_eb2c7d1c1cf62231a5a3616a60711c66.setIcon(icon_0bda9d53dc7c985c06d421d0b4919389);
+            
+    
+                marker_cbce7b07b39d82b935f198c0320cf19e.setIcon(icon_58128108e1914155940bc92d217a0c0c);
+            
+    
+                marker_97a5476a51a601afb839dcf0d35ebd55.setIcon(icon_441eeadae69dc5bb24b1906ea1184dd0);
+            
+</script>
+</html>
